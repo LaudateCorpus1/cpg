@@ -111,7 +111,7 @@ dependencies {
     testImplementation(testFixtures(project(":cpg-core")))
 
     // llvm
-    implementation("org.bytedeco:llvm-platform:12.0.1-1.5.6")
+    implementation("org.bytedeco:llvm-platform:15.0.3-1.5.8")
 
     // JUnit
     testImplementation("org.jetbrains.kotlin:kotlin-test")
